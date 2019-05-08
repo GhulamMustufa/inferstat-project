@@ -116,7 +116,12 @@ a.btn-banner {
     letter-spacing: 1px;
     display: inline-block;
     margin-top: 95px;
+    background: #3498DB;
     
+}
+.fontStyle{
+    font-size: 16px;
+    font-weight: 600;
 }
 a.btn-banner i
 {

@@ -80,7 +80,7 @@ export class Portfolio extends Component {
                 <div className="service-box">
                   <div className="service-text1">
                     <h3>Harness Your Potential</h3>
-                    <p>
+                    <p className="fontStyle">
                      
                       We will customise your role to focus on your preferred specialisations or develop you in new areas. Do what you
                       most enjoy.
