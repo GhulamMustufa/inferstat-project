@@ -1,17 +1,20 @@
-import React, { Component } from 'react'
-import thomas from '../img/thomas.jpg'
-import william from '../img/william.jpg'
-import joshua from '../img/joshua.jpg'
+import React, { Component } from "react";
+import thomas from "../img/thomas.jpg";
+import william from "../img/william.jpg";
+import joshua from "../img/joshua.jpg";
 
 export class Team extends Component {
   render() {
     return (
-        <div id="about" className="section-padding">
+      <div id="about" className="section-padding">
         <div className="container">
           <div className="row">
             <div className="page-title text-center">
               <h1>Meet Our Team</h1>
-              <p>We have a talented team of individual with the aim to provide you the best solution. </p>
+              <p className="fontStyle">
+                We have a talented team of individual with the aim to provide
+                you the best solution.{" "}
+              </p>
               <hr className="pg-titl-bdr-btm" />
             </div>
             <div className="autoplay">
@@ -22,8 +25,7 @@ export class Team extends Component {
                   </div>
                   <div className="fig-caption">
                     <h3>Thomas Oliver</h3>
-                    <p className="marb-20">CEO</p>
-                    
+                    <p className="fontStyle">CEO</p>
                   </div>
                 </div>
               </div>
@@ -34,8 +36,7 @@ export class Team extends Component {
                   </div>
                   <div className="fig-caption">
                     <h3>William Everett</h3>
-                    <p className="marb-20">Digital Content Manager</p>
-                    
+                    <p className="fontStyle">Digital Content Manager</p>
                   </div>
                 </div>
               </div>
@@ -46,18 +47,18 @@ export class Team extends Component {
                   </div>
                   <div className="fig-caption">
                     <h3>Joshua Mason</h3>
-                    <p className="marb-20">Head of Development and Operations</p>
-                    
+                    <p className="fontStyle">
+                      Head of Development and Operations
+                    </p>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Team
+export default Team;

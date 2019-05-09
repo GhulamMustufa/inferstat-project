@@ -14,18 +14,22 @@ export class Footer extends Component {
                 <h3>Contact us on</h3>
                 <div className="footer_social row">
                   <div className="col-md-6 contact">
-                  <span className="iconwrap"><a className="" href="#">
-                      <i className="far fa-envelope fa-lg" />
-                    </a></span>
-                    
+                    <span className="iconwrap">
+                      <a >
+                        <i className="far fa-envelope fa-lg" />
+                      </a>
+                    </span>
+
                     <h4 className="cont">enquiries@inferstat.com</h4>
                   </div>
 
                   <div className="col-md-6 contact">
-                  <span className="iconwrap"><a className="" href="#">
-                      <i className="fas fa-phone fa-lg" />
-                    </a></span>
-                    
+                    <span className="iconwrap">
+                      <a >
+                        <i className="fas fa-phone fa-lg" />
+                      </a>
+                    </span>
+
                     <h4 className="cont"> +44(0)20 8068 9563</h4>
                   </div>
                 </div>
@@ -52,7 +56,7 @@ export class Footer extends Component {
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Tempo
             */}
                   InferStat Ltd, Company number, England & Wales: 10831365.
-                  Plaza 9, KD Tower, Hemel Hempstead HP1 1FW 
+                  Plaza 9, KD Tower, Hemel Hempstead HP1 1FW
                 </div>
               </div>
             </div>

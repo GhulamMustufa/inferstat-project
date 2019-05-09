@@ -1,14 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import About from "./components/About";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
-import Cta from "./components/Cta";
-import Service from "./components/Service";
-import Portfolio from "./components/Portfolio";
+import Career from "./components/Career";
+import Partner from "./components/Partner";
 import Team from "./components/Team";
-import Cta2 from "./components/Cta2";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -18,35 +16,19 @@ function App() {
       <div>
         <Header />
         <Banner />
-      
-        <Service />
-        <Portfolio />
+        <Partner />
+        <Career />
         <Team />
-      
+        <About />
         <Contact />
         <Footer />
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
-
         <Route path="/" exact component={Header} />
         <Route path="/banner" component={Banner} />
-        <Route path="/cta" component={Cta} />
-        <Route path="/service" component={Service} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/career" component={Career} />
+        <Route path="/partner" component={Partner} />
         <Route path="/team" component={Team} />
-        <Route path="/cta2" component={Cta2} />
         <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
         <Route path="/footer" component={Footer} />
       </div>
     </Router>
